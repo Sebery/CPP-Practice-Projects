@@ -1,0 +1,3 @@
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/SubstitutionCipherWithStrings/cmake-build-debug/CMakeFiles/SubstitutionCipherWithStrings.dir
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/SubstitutionCipherWithStrings/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/SubstitutionCipherWithStrings/cmake-build-debug/CMakeFiles/rebuild_cache.dir
