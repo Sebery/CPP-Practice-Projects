@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#include <cctype>
 
-using std::cout, std::cin, std::vector;
+using std::cout, std::cin, std::vector, std::string;
 
 /*
  * This challenge is about using a collection (list) of integers and allowing the user
@@ -49,116 +51,149 @@ using std::cout, std::cin, std::vector;
  *
  * */
 
+//PROTOTYPES
+void display_menu ();
+char get_selection ();
+void welcome_message ();
+void print_numbers (vector<int> &numbers);
+void display_message(string message);
+void add_number (vector<int> &numbers);
+void print_average (vector<int> &numbers);
+void get_smallest_number (vector<int> &numbers);
+void get_largest_number (vector<int> &numbers);
+
+
 int main() {
     vector<int> numbers{};
     char selection{};
 
-    cout << "---------------------------------------\n";
-    cout << "-- WELCOME TO NUMBERS VECTOR PROGRAM --\n";
-    cout << "---------------------------------------\n";
-
-    cout << "\n";
+    welcome_message();
 
     do {
-        cout << "***********************\n";
-        cout << "** ENTER YOUR CHOICE **\n";
-        cout << "***********************\n";
-        cout << "P - Print Numbers\n";
-        cout << "A - Add a Number\n";
-        cout << "M - Display Average of the Numbers\n";
-        cout << "S - Display the Smallest Number\n";
-        cout << "L - Display the Largest Number\n";
-        cout << "Q - Quit\n";
-        cout << "---> ";
-        cin >> selection;
-        selection = static_cast<char>(std::tolower(selection));
+        display_menu();
+        selection = get_selection();
 
         switch (selection) {
             case 'p':
-                if (numbers.size() > 0) {
-                    cout << "\n[ ";
-
-                    for (auto num : numbers) {
-                        cout << num << " ";
-                    }
-
-                    cout << "]\n";
-                } else {
-                    cout << "\n[] - The List is Empty\n";
-                }
+                (numbers.size() > 0) ? print_numbers(numbers) : display_message("[] - The List is Empty");
                 break;
             case 'a':
-                {
-                    int num{};
-                    cout << "\nPlease, Enter a Number to Add to the List: ";
-                    cin >> num;
-                    numbers.push_back(num);
-                    cout << num << " was Added to the List!\n";
-                }
+                add_number(numbers);
                 break;
             case 'm':
-                {
-                    double average{0.0};
-                    int sum{0};
-
-                    if (numbers.size() > 0) {
-                        for (auto num : numbers) {
-                            sum += num;
-                        }
-
-                        average = static_cast<double>(sum) / numbers.size();
-                        cout << "\nThe Average is: " << average << "\n";
-                    } else {
-                        cout << "\nUnable to Calculate the Average - No Data\n";
-                    }
-                }
+                (numbers.size() > 0) ? print_average(numbers) : display_message("Unable to Calculate the Average - No Data");
                 break;
             case 's':
-                {
-                    int smallest_number{};
-
-                    if (numbers.size() > 0) {
-                        smallest_number = numbers.at(0);
-                        for (auto num : numbers) {
-                            if (num < smallest_number) {
-                                smallest_number = num;
-                            }
-                        }
-
-                        cout << "\nThe Smallest Number in the List is: " << smallest_number << "\n";
-                    } else {
-                        cout << "\nUnable to Determine the Smallest Number - List is Empty\n";
-                    }
-                }
+                (numbers.size() > 0) ? get_smallest_number(numbers): display_message("Unable to Determine the Smallest Number - List is Empty");
                 break;
             case 'l':
-                {
-                    int largest_number{};
-
-                    if (numbers.size() > 0) {
-                        largest_number = numbers.at(0);
-
-                        for (auto num : numbers) {
-                            if (num > largest_number) {
-                                largest_number = num;
-                            }
-                        }
-
-                        cout << "\nThe Largest Number in the List is: " << largest_number << "\n";
-                    } else {
-                        cout << "\nUnable to Determine the Largest Number - List is Empty\n";
-                    }
-                }
+                (numbers.size() > 0) ? get_largest_number(numbers) : display_message("Unable to Determine the Largest Number - List is Empty");
                 break;
             case 'q':
-                cout << "\nGoodbye!\n";
+                display_message("Goodbye!");
                 break;
             default:
-                cout << "\nUnknown Selection, Please Try Again!\n";
+                display_message("Unknown Selection, Please Try Again!");
         }
 
         cout << "\n";
     } while (selection != 'q');
 
     return 0;
+}
+
+//FUNCTIONS
+void display_menu () {
+    cout << "***********************\n";
+    cout << "** ENTER YOUR CHOICE **\n";
+    cout << "***********************\n";
+    cout << "P - Print Numbers\n";
+    cout << "A - Add a Number\n";
+    cout << "M - Display Average of the Numbers\n";
+    cout << "S - Display the Smallest Number\n";
+    cout << "L - Display the Largest Number\n";
+    cout << "Q - Quit\n";
+    cout << "---> ";
+}
+
+char get_selection () {
+    char selection{};
+    cin >> selection;
+    selection = static_cast<char>(std::tolower(selection));
+    return selection;
+}
+
+void welcome_message () {
+    cout << "---------------------------------------\n";
+    cout << "-- WELCOME TO NUMBERS VECTOR PROGRAM --\n";
+    cout << "---------------------------------------\n";
+
+    cout << "\n";
+}
+
+void print_numbers (vector<int> &numbers) {
+    cout << "\n[ ";
+
+    for (auto num : numbers) {
+        cout << num << " ";
+    }
+
+    cout << "]\n";
+}
+
+void display_message (string message) {
+    cout << "\n" + message + "\n";
+}
+
+void add_number (vector<int> &numbers) {
+    int num{};
+    cout << "\nPlease, Enter a Number to Add to the List: ";
+    cin >> num;
+    while (!cin >> num) {
+        cin.clear();
+        cin.ignore();
+        cout << "\nInvalid Number, Enter a Number Again to Add to the List: ";
+        cin >> num;
+    }
+    numbers.push_back(num);
+    cout << num << " was Added to the List!\n";
+}
+
+void print_average (vector<int> &numbers) {
+    double average{0.0};
+    int sum{0};
+
+    for (auto num : numbers) {
+        sum += num;
+    }
+
+    average = static_cast<double>(sum) / numbers.size();
+    cout << "\nThe Average is: " << average << "\n";
+}
+
+void get_smallest_number (vector<int> &numbers) {
+    int smallest_number{};
+
+    smallest_number = numbers.at(0);
+    for (auto num : numbers) {
+        if (num < smallest_number) {
+            smallest_number = num;
+        }
+    }
+
+    cout << "\nThe Smallest Number in the List is: " << smallest_number << "\n";
+}
+
+void get_largest_number (vector<int> &numbers) {
+    int largest_number{};
+
+    largest_number = numbers.at(0);
+
+    for (auto num : numbers) {
+        if (num > largest_number) {
+            largest_number = num;
+        }
+    }
+
+    cout << "\nThe Largest Number in the List is: " << largest_number << "\n";
 }
