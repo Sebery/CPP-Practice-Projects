@@ -1,3 +1,0 @@
-C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/DollarsProgram/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/DollarsProgram/cmake-build-debug/CMakeFiles/DollarsProgram.dir
-C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/DollarsProgram/cmake-build-debug/CMakeFiles/rebuild_cache.dir
