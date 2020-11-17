@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/DelegatingConstructors/Player.cpp
+Player.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/DelegatingConstructors/Player.h
+iostream
+-
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/DelegatingConstructors/Player.h
+string
+-
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/DelegatingConstructors/main.cpp
+iostream
+-
+Player.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/DelegatingConstructors/Player.h
+

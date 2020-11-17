@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ConstructorInitilizationLists.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\ConstructorInitilizationLists.dir/objects.a @CMakeFiles\ConstructorInitilizationLists.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ConstructorInitilizationLists.dir/objects.a -Wl,--no-whole-archive  -o ConstructorInitilizationLists.exe -Wl,--out-implib,libConstructorInitilizationLists.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ConstructorInitilizationLists.dir\linklibs.rsp

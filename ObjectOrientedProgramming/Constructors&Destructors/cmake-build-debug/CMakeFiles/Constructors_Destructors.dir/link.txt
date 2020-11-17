@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Constructors_Destructors.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\Constructors_Destructors.dir/objects.a @CMakeFiles\Constructors_Destructors.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Constructors_Destructors.dir/objects.a -Wl,--no-whole-archive  -o Constructors_Destructors.exe -Wl,--out-implib,libConstructors_Destructors.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Constructors_Destructors.dir\linklibs.rsp
