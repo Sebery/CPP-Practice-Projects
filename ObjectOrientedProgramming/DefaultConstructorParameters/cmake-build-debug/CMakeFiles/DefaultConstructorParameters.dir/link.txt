@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\DefaultConstructorParameters.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\DefaultConstructorParameters.dir/objects.a @CMakeFiles\DefaultConstructorParameters.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\DefaultConstructorParameters.dir/objects.a -Wl,--no-whole-archive  -o DefaultConstructorParameters.exe -Wl,--out-implib,libDefaultConstructorParameters.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DefaultConstructorParameters.dir\linklibs.rsp
