@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\StaticWithClasses.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\StaticWithClasses.dir/objects.a @CMakeFiles\StaticWithClasses.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\StaticWithClasses.dir/objects.a -Wl,--no-whole-archive  -o StaticWithClasses.exe -Wl,--out-implib,libStaticWithClasses.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StaticWithClasses.dir\linklibs.rsp
