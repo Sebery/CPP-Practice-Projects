@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\BrakeOut.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\BrakeOut.dir/objects.a @CMakeFiles\BrakeOut.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\BrakeOut.dir/objects.a -Wl,--no-whole-archive  -o BrakeOut.exe -Wl,--out-implib,libBrakeOut.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BrakeOut.dir\linklibs.rsp

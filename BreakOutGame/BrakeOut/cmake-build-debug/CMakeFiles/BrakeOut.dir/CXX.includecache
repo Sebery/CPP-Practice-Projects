@@ -1,0 +1,90 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/BrakeOutGame/BrakeOut/main.cpp
+olcPixelGameEngine.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/BrakeOutGame/BrakeOut/olcPixelGameEngine.h
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/BrakeOutGame/BrakeOut/olcPixelGameEngine.h
+olcPixelGameEngine.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/BrakeOutGame/BrakeOut/olcPixelGameEngine.h
+cmath
+-
+cstdint
+-
+string
+-
+iostream
+-
+streambuf
+-
+sstream
+-
+chrono
+-
+vector
+-
+list
+-
+thread
+-
+atomic
+-
+fstream
+-
+map
+-
+functional
+-
+algorithm
+-
+array
+-
+cstring
+-
+experimental/filesystem
+-
+filesystem
+-
+windows.h
+-
+X11/X.h
+-
+X11/Xlib.h
+-
+GL/glut.h
+-
+GL/freeglut_ext.h
+-
+GLUT/glut.h
+-
+olcPixelGameEngine.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/BrakeOutGame/BrakeOut/olcPixelGameEngine.h
+dwmapi.h
+-
+GL/gl.h
+-
+GL/gl.h
+-
+GL/glx.h
+-
+OpenGL/OpenGL.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+gdiplus.h
+-
+shlwapi.h
+-
+png.h
+-
+stb_image.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/BrakeOutGame/BrakeOut/stb_image.h
+
