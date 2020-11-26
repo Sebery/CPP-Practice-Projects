@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\AccountClassInheritance.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\AccountClassInheritance.dir/objects.a @CMakeFiles\AccountClassInheritance.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\AccountClassInheritance.dir/objects.a -Wl,--no-whole-archive  -o AccountClassInheritance.exe -Wl,--out-implib,libAccountClassInheritance.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AccountClassInheritance.dir\linklibs.rsp
