@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PlayerClassInheritance.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\PlayerClassInheritance.dir/objects.a @CMakeFiles\PlayerClassInheritance.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\PlayerClassInheritance.dir/objects.a -Wl,--no-whole-archive  -o PlayerClassInheritance.exe -Wl,--out-implib,libPlayerClassInheritance.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PlayerClassInheritance.dir\linklibs.rsp
