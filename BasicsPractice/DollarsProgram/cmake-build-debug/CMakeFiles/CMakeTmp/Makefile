@@ -70,10 +70,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp"
+CMAKE_SOURCE_DIR = "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\BasicsPractice\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp"
+CMAKE_BINARY_DIR = "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\BasicsPractice\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -102,9 +102,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all:
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles" "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\BasicsPractice\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles" "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\BasicsPractice\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\santiago .LAPTOP-CN8FHVCV\Desktop\CPP PRACTICE PROJECTS\CPP-Practice-Projects\BasicsPractice\DollarsProgram\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,17 +128,17 @@ preinstall/fast:
 .PHONY : preinstall/fast
 
 #=============================================================================
-# Target rules for targets named cmTC_eeb7e
+# Target rules for targets named cmTC_c5cf4
 
 # Build rule for target.
-cmTC_eeb7e:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmTC_eeb7e
-.PHONY : cmTC_eeb7e
+cmTC_c5cf4:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmTC_c5cf4
+.PHONY : cmTC_c5cf4
 
 # fast build rule for target.
-cmTC_eeb7e/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_eeb7e.dir\build.make CMakeFiles/cmTC_eeb7e.dir/build
-.PHONY : cmTC_eeb7e/fast
+cmTC_c5cf4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c5cf4.dir\build.make CMakeFiles/cmTC_c5cf4.dir/build
+.PHONY : cmTC_c5cf4/fast
 
 testCCompiler.obj: testCCompiler.c.obj
 
@@ -146,7 +146,7 @@ testCCompiler.obj: testCCompiler.c.obj
 
 # target to build an object file
 testCCompiler.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_eeb7e.dir\build.make CMakeFiles/cmTC_eeb7e.dir/testCCompiler.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c5cf4.dir\build.make CMakeFiles/cmTC_c5cf4.dir/testCCompiler.c.obj
 .PHONY : testCCompiler.c.obj
 
 testCCompiler.i: testCCompiler.c.i
@@ -155,7 +155,7 @@ testCCompiler.i: testCCompiler.c.i
 
 # target to preprocess a source file
 testCCompiler.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_eeb7e.dir\build.make CMakeFiles/cmTC_eeb7e.dir/testCCompiler.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c5cf4.dir\build.make CMakeFiles/cmTC_c5cf4.dir/testCCompiler.c.i
 .PHONY : testCCompiler.c.i
 
 testCCompiler.s: testCCompiler.c.s
@@ -164,7 +164,7 @@ testCCompiler.s: testCCompiler.c.s
 
 # target to generate assembly for a file
 testCCompiler.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_eeb7e.dir\build.make CMakeFiles/cmTC_eeb7e.dir/testCCompiler.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c5cf4.dir\build.make CMakeFiles/cmTC_c5cf4.dir/testCCompiler.c.s
 .PHONY : testCCompiler.c.s
 
 # Help Target
@@ -174,7 +174,7 @@ help:
 	@echo ... clean
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... cmTC_eeb7e
+	@echo ... cmTC_c5cf4
 	@echo ... testCCompiler.obj
 	@echo ... testCCompiler.i
 	@echo ... testCCompiler.s

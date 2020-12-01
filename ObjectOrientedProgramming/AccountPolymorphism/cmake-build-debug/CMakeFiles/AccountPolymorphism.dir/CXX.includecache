@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Account.h
+iostream
+-
+string
+-
+I_Printable.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/I_Printable.h
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Account_Util.h
+vector
+-
+Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Account.h
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Checking_Account.h
+iostream
+-
+string
+-
+Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Account.h
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/I_Printable.h
+iostream
+-
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Savings_Account.h
+Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Account.h
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Trust_Account.h
+Savings_Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Savings_Account.h
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/main.cpp
+iostream
+-
+Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Account.h
+vector
+-
+Account_Util.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Account_Util.h
+Checking_Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Checking_Account.h
+Savings_Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Savings_Account.h
+Trust_Account.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/AccountPolymorphism/Trust_Account.h
+
