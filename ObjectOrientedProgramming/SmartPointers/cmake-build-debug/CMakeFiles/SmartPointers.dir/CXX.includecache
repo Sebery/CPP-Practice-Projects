@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/Computer.h
+I_Printable.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/I_Printable.h
+string
+-
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/I_Printable.h
+iostream
+-
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/Laptop.h
+Computer.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/Computer.h
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/main.cpp
+iostream
+-
+memory
+-
+Computer.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/Computer.h
+Laptop.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/ObjectOrientedProgramming/SmartPointers/Laptop.h
+vector
+-
+
