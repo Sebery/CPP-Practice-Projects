@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TestClassSmartPointers" targetName="TestClassSmartPointers" />
+      <config projectName="DividingByZero" targetName="DividingByZero" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1448a295-fea3-4ecd-9ac5-888a3e56c031" name="Default Changelist" comment="" />
+    <list default="true" id="6045436c-c5f4-40c3-8a23-f0ea5a28234d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../TestClassSmartPointers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestClassSmartPointers/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1l534YGpCMflcEpsMrjkIWHCr6x" />
+  <component name="ProjectId" id="1l7aIP2fVLdbEL1MDkJRK2fu36M" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +38,12 @@
     <property name="cf.first.check.clang-format" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="TestClassSmartPointers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TestClassSmartPointers" TARGET_NAME="TestClassSmartPointers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TestClassSmartPointers" RUN_TARGET_NAME="TestClassSmartPointers">
+    <configuration name="DividingByZero" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DividingByZero" TARGET_NAME="DividingByZero" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DividingByZero" RUN_TARGET_NAME="DividingByZero">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -50,13 +57,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1448a295-fea3-4ecd-9ac5-888a3e56c031" name="Default Changelist" comment="" />
-      <created>1606872937688</created>
+      <changelist id="6045436c-c5f4-40c3-8a23-f0ea5a28234d" name="Default Changelist" comment="" />
+      <created>1606950507813</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606872937688</updated>
-      <workItem from="1606872948469" duration="1323000" />
-      <workItem from="1606950410993" duration="51000" />
+      <updated>1606950507813</updated>
+      <workItem from="1606950536296" duration="2462000" />
     </task>
     <servers />
   </component>
@@ -64,21 +70,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="759" height="176" key="GridCell.Tab.0.bottom" timestamp="1606874331662">
+    <state width="759" height="176" key="GridCell.Tab.0.bottom" timestamp="1606953097776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="759" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606874331662" />
-    <state width="759" height="176" key="GridCell.Tab.0.center" timestamp="1606874331662">
+    <state width="759" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606953097776" />
+    <state width="759" height="176" key="GridCell.Tab.0.center" timestamp="1606953097776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="759" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606874331662" />
-    <state width="759" height="176" key="GridCell.Tab.0.left" timestamp="1606874331662">
+    <state width="759" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606953097776" />
+    <state width="759" height="176" key="GridCell.Tab.0.left" timestamp="1606953097776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="759" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606874331662" />
-    <state width="759" height="176" key="GridCell.Tab.0.right" timestamp="1606874331662">
+    <state width="759" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606953097776" />
+    <state width="759" height="176" key="GridCell.Tab.0.right" timestamp="1606953097776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="759" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606874331662" />
+    <state width="759" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606953097776" />
   </component>
 </project>
