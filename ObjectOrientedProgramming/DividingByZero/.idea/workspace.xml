@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6045436c-c5f4-40c3-8a23-f0ea5a28234d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../TestClassSmartPointers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestClassSmartPointers/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6045436c-c5f4-40c3-8a23-f0ea5a28234d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +41,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -63,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606950507813</updated>
       <workItem from="1606950536296" duration="2462000" />
+      <workItem from="1606968245140" duration="91000" />
     </task>
     <servers />
   </component>
