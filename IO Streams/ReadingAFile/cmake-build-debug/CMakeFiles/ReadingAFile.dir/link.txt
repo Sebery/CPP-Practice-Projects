@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ReadingAFile.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\ReadingAFile.dir/objects.a @CMakeFiles\ReadingAFile.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ReadingAFile.dir/objects.a -Wl,--no-whole-archive  -o ReadingAFile.exe -Wl,--out-implib,libReadingAFile.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ReadingAFile.dir\linklibs.rsp
