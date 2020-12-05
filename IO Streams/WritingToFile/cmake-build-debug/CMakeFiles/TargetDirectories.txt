@@ -1,0 +1,3 @@
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/IO Streams/WritingToFile/cmake-build-debug/CMakeFiles/WritingToFile.dir
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/IO Streams/WritingToFile/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/IO Streams/WritingToFile/cmake-build-debug/CMakeFiles/rebuild_cache.dir

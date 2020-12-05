@@ -1,0 +1,20 @@
+---->git init
+git add <file>
+git status
+git commit
+git push
+git pull
+git clone
+ls
+pwd
+git config --global user.name "name"
+git checkout -- filename
+git log
+git diff filename
+git commit -m "message"
+git branch name
+git checkout name
+git add .
+git clone url
+i
+:wq
