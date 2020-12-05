@@ -1,0 +1,3 @@
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/IO Streams/WordFinder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/IO Streams/WordFinder/cmake-build-debug/CMakeFiles/WordFinder.dir
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/IO Streams/WordFinder/cmake-build-debug/CMakeFiles/edit_cache.dir
