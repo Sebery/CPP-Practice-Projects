@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/STL/TemplateClasses/Person.h
+string
+-
+vector
+-
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/STL/TemplateClasses/main.cpp
+iostream
+-
+Person.h
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/STL/TemplateClasses/Person.h
+vector
+-
+string
+-
+
