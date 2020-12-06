@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CopyFile.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\CopyFile.dir/objects.a @CMakeFiles\CopyFile.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CopyFile.dir/objects.a -Wl,--no-whole-archive  -o CopyFile.exe -Wl,--out-implib,libCopyFile.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CopyFile.dir\linklibs.rsp
