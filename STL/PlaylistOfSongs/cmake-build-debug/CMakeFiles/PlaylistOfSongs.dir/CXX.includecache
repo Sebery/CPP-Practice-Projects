@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/santiago .LAPTOP-CN8FHVCV/Desktop/CPP PRACTICE PROJECTS/CPP-Practice-Projects/STL/PlaylistOfSongs/main.cpp
+iostream
+-
+list
+-
+string
+-
+cctype
+-
+iomanip
+-
+limits
+-
+sstream
+-
+algorithm
+-
+

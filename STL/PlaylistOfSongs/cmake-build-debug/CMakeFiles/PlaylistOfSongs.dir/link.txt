@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PlaylistOfSongs.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\PlaylistOfSongs.dir/objects.a @CMakeFiles\PlaylistOfSongs.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\PlaylistOfSongs.dir/objects.a -Wl,--no-whole-archive  -o PlaylistOfSongs.exe -Wl,--out-implib,libPlaylistOfSongs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PlaylistOfSongs.dir\linklibs.rsp
